@@ -45,3 +45,9 @@ def test_service_worker_se_sirve_desde_la_raiz():
     respuesta = cliente.get("/sw.js")
     assert respuesta.status_code == 200
     assert "javascript" in respuesta.headers["content-type"]
+
+
+def test_api_devuelve_la_version_del_proyecto():
+    respuesta = cliente.get("/api/version")
+    assert respuesta.status_code == 200
+    assert respuesta.json() == {"version": proyecto.VERSION}
