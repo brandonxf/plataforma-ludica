@@ -4,7 +4,7 @@ Prototipo de una plataforma web lúdica de cursos para niños, desarrollado con 
 
 - **Aprendiz:** Brandon Alexander Acevedo Pacheco
 - **Curso y mecánica:** Matemáticas – Niveles
-- **Aplicación publicada:** (complete con la URL de Render)
+- **Aplicación publicada:** https://plataforma-ludica-9f75.onrender.com
 
 ## Ejecutar en su equipo
 
